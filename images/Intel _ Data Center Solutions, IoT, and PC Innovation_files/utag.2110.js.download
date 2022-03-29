@@ -1,0 +1,2 @@
+//tealium universal tag - utag.2110 ut4.0.202201202219, Copyright 2022 Tealium.com Inc. All Rights Reserved.
+wap_tms=(typeof wap_tms!=='undefined')?wap_tms:{};wap_tms.custom=wap_tms.custom||{};wap_tms.custom.trackGaVirtualPageView=function(pageName,queryString,hashInfo){var pathname=pageName||document.location.pathname;var search=queryString||document.location.search;var hash=hashInfo||document.location.hash;trackGaPage(pathname+search+hash,wap_ga.callback);};
